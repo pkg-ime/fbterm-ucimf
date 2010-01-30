@@ -1,0 +1,55 @@
+This work was packaged for Debian by:
+
+    Aron Xu <happyaron.xu@gmail.com>  Sat, 30 Jan 2010 14:06:31 +0800
+
+It was downloaded from:
+
+    http://code.google.com/p/ucimf
+
+Upstream Author(s):
+
+    dragchan <zgchan317@gmail.com>
+    Chun-Yu Lee (Mat) <MatLinuxer2@gmail.com>
+
+Copyright:
+
+    Copyright (C) 2006-2010 Chun-Yu Lee (Mat) <MatLinuxer2@gmail.com> and Open RazzmatazZ Laboratory (OrzLab
+
+License:
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+On Debian systems, the complete text of the GNU General
+Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Aron Xu <happyaron.xu@gmail.com>
+
+# Please chose a license for your packaging work. If the program you package
+# uses a mainstream license, using the same license is the safest choice.
+# Please avoid to pick license terms that are more restrictive than the
+# packaged work, as it may make Debian's contributions unacceptable upstream.
+# If you just want it to be GPL version 2, leave the following line in.
+
+and is licensed under the GPL version 2, see above.
+
+-------------------------------------------------------------------------------
+
+Files: immessage.h,
+imapi.c,
+imapi.h.
+Copyright: 2008-2009 dragchan <zgchan317@gmail.com>
+License: GPL-2+
+

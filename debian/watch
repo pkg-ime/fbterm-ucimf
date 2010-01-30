@@ -1,0 +1,3 @@
+version=3
+opts=downloadurlmangle=s#.*(fbterm_ucimf-([\d.]+)\.tar\.gz).*#http://ucimf.googlecode.com/files/$1#,filenamemangle=s#.*(fbterm_ucimf-([\d.]+)\.tar\.gz).*#$1# \
+    http://code.google.com/p/ucimf/downloads/list ^.*detail\?name=fbterm_ucimf-([\d.]+)\.tar\.gz.*

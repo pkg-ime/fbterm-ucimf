@@ -1,0 +1,16 @@
+Source: fbterm-ucimf
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: Aron Xu <happyaron.xu@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libucimf-dev
+Standards-Version: 3.8.4
+Homepage: http://code.google.com/p/ucimf/
+
+Package: fbterm-ucimf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ucimf, fbterm
+Description: ucimf input method interface for fbterm
+ This package contains an input method interface for fbterm
+ using ucimf, the Linux unicode framebuffer consle input
+ method framework.

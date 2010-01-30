@@ -1,0 +1,5 @@
+fbterm-ucimf (0.2.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #567248)
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Sat, 30 Jan 2010 14:06:31 +0800
