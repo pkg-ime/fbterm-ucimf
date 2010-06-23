@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT([fbterm_ucimf], [0.2.6], [ucimf@googlegroups.com])
+AC_INIT([fbterm_ucimf], [0.2.7.1], [ucimf@googlegroups.com])
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([fbterm_ucimf.cpp])
 AC_CONFIG_HEADER([config.h])
@@ -16,6 +16,18 @@ AC_PROG_LIBTOOL
 # Checks for libraries.
 # FIXME: Replace `main' with a function in `-limclient':
 AC_CHECK_LIB([ucimf], [ucimf_init])
+
+dnl Checking FreeType2.......................................................
+PKG_CHECK_MODULES([freetype2], [freetype2])                                                        
+AC_SUBST(freetype2_CFLAGS)
+AC_SUBST(freetype2_LIBS)
+dnl .........................................................................
+
+dnl Checking Fontconfig.......................................................
+PKG_CHECK_MODULES([fontconfig], [fontconfig])
+AC_SUBST(fontconfig_CFLAGS)
+AC_SUBST(fontconfig_LIBS)
+dnl .........................................................................
 
 # Checks for header files.
 AC_HEADER_STDC

@@ -1,3 +1,13 @@
+fbterm-ucimf (0.2.7.1-1) unstable; urgency=low
+
+  * New upstream release:
+    Quote the font interfaces and implementations from FbTerm,
+    to add fontconfig support for ucimf.
+  * debian/control: Add libfontconfig1-dev to build dependency.
+  * debian/fbterm_ucimf.1: Change "-" to "\-" in manual page.
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Wed, 23 Jun 2010 14:41:21 +0800
+
 fbterm-ucimf (0.2.6-1) unstable; urgency=low
 
   * Initial release (Closes: #567248)
