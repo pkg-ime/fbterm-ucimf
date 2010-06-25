@@ -1,3 +1,9 @@
+fbterm-ucimf (0.2.8-1) unstable; urgency=low
+
+  * New upstream release: update IM API to latest fbterm 1.6
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Fri, 25 Jun 2010 20:43:18 +0800
+
 fbterm-ucimf (0.2.7.1-1) unstable; urgency=low
 
   * New upstream release:
